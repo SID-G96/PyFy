@@ -17,7 +17,7 @@ import seaborn as sns
 symbols = ["TCS.NS", "WIPRO.NS", "TECHM.NS", "INFY.NS", "HCLTECH.NS"]
 
 
-start_date = datetime(2019,1,1)
+start_date = datetime(2010,1,1)
 end_date = datetime (2019,12,31)
 stock_data = web.get_data_yahoo(symbols, start_date, end_date)
 #print(stock_data)
